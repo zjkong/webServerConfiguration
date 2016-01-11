@@ -40,7 +40,7 @@ http://ec2-52-24-215-154.us-west-2.compute.amazonaws.com/itemcatalog
 
 |-----------------------venv
 
-|-----------------------__init__.py
+|-----------------------\__init__.py
 
 |-----------------------database_setup.py
 
