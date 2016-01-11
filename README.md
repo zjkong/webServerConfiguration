@@ -50,15 +50,15 @@ http://ec2-52-24-215-154.us-west-2.compute.amazonaws.com/itemcatalog
 
 |----------------flaskapp.wsgi
 
-  (1) Installed and enabled mod_wsgi.
+      (1) Installed and enabled mod_wsgi.
   
-  (2) Used 'git clone' to copy catalog application from github.
+      (2) Used 'git clone' to copy catalog application from github.
   
-  (3) Installed flask and other packages including requests, sqlalchemy, psycopg2, oauth2client and json.
+      (3) Installed flask and other packages including requests, sqlalchemy, psycopg2, oauth2client and json.
   
-  (4) Configured and enabled New Virtual Host in '/etc/apache2/sites-available/FlaskApp.conf'.
+      (4) Configured and enabled New Virtual Host in '/etc/apache2/sites-available/FlaskApp.conf'.
   
-  (5) Created the .wsgi File so Apache2 server can communicate with python application.
+      (5) Created the .wsgi File so Apache2 server can communicate with python application.
   
 10) Added both ip address and web url to google console's Authorized JavaScript origins.
 
