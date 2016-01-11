@@ -31,14 +31,23 @@ http://ec2-52-24-215-154.us-west-2.compute.amazonaws.com/itemcatalog
 9) Created a directory in /var/www to place flask application and total structure is as followed:
 
 |--------FlaskApp
+
 |----------------FlaskApp
+
 |-----------------------static
+
 |-----------------------templates
+
 |-----------------------venv
+
 |-----------------------__init__.py
+
 |-----------------------database_setup.py
+
 |-----------------------sports_and_equipments.py
+
 |-----------------------client_secrets.json
+
 |----------------flaskapp.wsgi
 
   (1) Installed and enabled mod_wsgi.
